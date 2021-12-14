@@ -42,7 +42,7 @@ function extraction(str) {
     var position;
     var length;
 
-    for (let i; i <= n; i++) {
+    for (i=0; i <= n; i++) {
         if(str.length % 2 == 1) {
             position = str.length / 2;
             length = 1;
